@@ -1,0 +1,25 @@
+.about-title {
+  display: grid;
+  place-content: center;
+}
+.bg-about {
+  background-color: #1abc9c;
+}
+span::after {
+  content: "";
+  width: 30%;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 10px;
+  left: 15%;
+}
+span::before {
+  content: "";
+  width: 30%;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 10px;
+  right: 15%;
+}
